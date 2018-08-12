@@ -28,6 +28,5 @@ If you want to have a custom name for your Unity project do the following:
 * The project works best if you are provided with a smiling face :)
 * Done!
 
-
 ## License
-
+This project has a MIT-license.
