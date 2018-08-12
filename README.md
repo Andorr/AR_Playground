@@ -10,6 +10,8 @@ The project currently consists of a start of a Whack-A-Mole game, and a PDF-view
 To install the project you need to have [Unity](https://unity3d.com/) installed with the Vuforia-plugin.
 
 ### Clone repository
-
+```
+git clone git@github.com:Andorr/AR_Playground.git
+```
 ## License
 
