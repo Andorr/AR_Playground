@@ -12,14 +12,19 @@ To install the project you need to have [Unity](https://unity3d.com/) installed 
 ```
 git clone git@github.com:Andorr/AR_Playground.git
 ```
-### Step 2: Open the project folder in Unity
+### Step 2 (Optional): Rename Unity project
+If you want to have a custom name for your Unity project do the following:
+* Open the newly created folder (default is /AR_Playground)
+* Renamed the 'AR_Playground' folder to what you want
+
+### Step 3: Open the project folder in Unity
 * Open Unity
-* Open the newly created project folder (default is /AR_Playground)
+* Open the 'AR_Playground' folder (or the renamed directory if you completed step 2)
 * Go to the '_Scenes' folder
 * Open one of the scenes
 * Click on the play button
 
-### Step 3: Smile and be happy
+### Step 4: Smile and be happy
 * The project works best if you are provided with a smiling face :)
 * Done!
 
