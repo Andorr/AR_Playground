@@ -11,14 +11,19 @@ To install the project you need to have [Unity](https://unity3d.com/) installed 
 
 ### Step 1: Clone repository
 ```
-mkdir AR_Playground
-cd AR_Playground
 git clone git@github.com:Andorr/AR_Playground.git
 ```
 ### Step 2: Open the project folder in Unity
 * Open Unity
+* Open the newly created project folder (default is /AR_Playground)
 * Go to the '_Scenes' folder
 * Open one of the scenes
+* Click on the play button
+
+### Step 3: Smile and be happy
+* The project works best if you are provided with a smiling face :)
+* Done!
+
 
 ## License
 
