@@ -5,8 +5,8 @@ The project currently consists of a start of a Whack-A-Mole game, and a PDF-view
 
 
 
-
-
+| Whack-A-Mole | PDF | Memes |
+| --- | --- | --- |
 | ![](https://i.imgur.com/6WDi1Sw.jpg)| ![](https://i.imgur.com/Qb3VNOT.jpg)| ![](https://i.imgur.com/nekUIQi.png) |
 
 ## Installation
