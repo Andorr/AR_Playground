@@ -14,6 +14,10 @@ public class PageController : MonoBehaviour {
 	[Header("GameObjects")]
 	public Transform pageHolder;
 
+	[Header("Attributes")]
+	[Range(0.3f, 2f)]
+	public float pageScale = 1f;
+
 	int currentPage = 0;
 
 	void Start() {
@@ -25,9 +29,14 @@ public class PageController : MonoBehaviour {
 				foreach(Texture2D t in pages) {
 					Debug.Log("Width: " + t.width + ", Height: " + t.height);
 				}
+				if(pages.Length > 0) {
+					SetPage(0);
+				}
 			}));
 		}
-		SetPage(0);
+		else {
+			SetPage(0);
+		}
 	}
 
 	private void InitializeActions() {
@@ -55,6 +64,6 @@ public class PageController : MonoBehaviour {
 		pageHolder.GetComponent<Renderer>().material.mainTexture = pages[index];
 		float width = (float)pages[index].width/1000f;
 		float height = (float)pages[index].height/1000f;
-		pageHolder.localScale = new Vector3(width, height, 1f);
+		pageHolder.localScale = new Vector3(width, height, 1f)*pageScale;
 	}
 }
