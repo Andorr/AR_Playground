@@ -19,6 +19,12 @@ git clone git@github.com:Andorr/AR_Playground.git
 * Open Unity
 * Go to the '_Scenes' folder
 * Open one of the scenes
+* Click on the play button
+
+### Step 3: Smile and be happy
+* The project works best if you are provided with a smiling face :)
+* Done!
+
 
 ## License
 
