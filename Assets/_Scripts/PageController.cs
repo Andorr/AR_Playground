@@ -62,8 +62,8 @@ public class PageController : MonoBehaviour {
 
 	private void SetPage(int index) {
 		pageHolder.GetComponent<Renderer>().material.mainTexture = pages[index];
-		float width = (float)pages[index].width/1000f;
-		float height = (float)pages[index].height/1000f;
-		pageHolder.localScale = new Vector3(width, height, 1f)*pageScale;
+		float ratio = (float)pages[index].height/(float)pages[index].width;
+		float height = 1f*ratio; // Wanted width is 1
+		pageHolder.localScale = new Vector3(1f, height, 1f)*pageScale;
 	}
 }
